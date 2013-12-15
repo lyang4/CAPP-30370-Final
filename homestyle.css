@@ -1,0 +1,84 @@
+@charset "utf-8";
+@viewport {width:device-width; zoom:1;}
+* {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+
+  @media only screen and (min-width:700px) {
+  nav li {display:inline-block; width:30%;}
+    .section {display:flex;}
+      .section1 {flex-wrap: wrap;}
+      .section1 div {padding:1em; flex:50%;}
+  }
+
+  @media only screen and (min-width:1000px) {
+  .section1 div {padding:1em; flex:25%;}
+  }
+
+
+  @-webkit-keyframes colors {
+  0% {background:red;}
+  20% {background:orange;}
+  40% {background:yellow;}
+  60% {background:green;}
+  80% {background:blue;}
+  100% {background:purple;}
+}
+
+.homepic{
+  -webkit-transition:all 0.5 ease-in-out; 
+}
+.homepic:hover{
+-webkit-transform:scale(1.75);
+}
+
+
+img {max-width:100%;
+       margin:1em;
+       padding: 2em 0em 0.5em 0em;
+
+      }
+
+  nav ul {margin:1; padding:0.4; list-style:none; text-align:center;}
+  nav a {
+          display:block; 
+          padding:0.2em; 
+          border:2px solid black;
+          background-color: #FFF8DC;
+          border-radius:25px;
+          font-size: 25px;
+         }
+
+  body{
+        background-image: url(hoffman.png);
+        background-repeat:repeat;
+        margin: 0 15%;
+        font-family: san-serif;
+        font-size: 1em;
+
+       }
+
+
+  header{
+	margin:0.5;
+  padding:1em;
+  border:2px solid black;
+  border-radius:10px;
+  text-align:center;
+  color:#000000;
+  font-size:3em;
+  font-weight:bold;
+  background-color:red;
+  -webkit-animation: colors 5s linear infinite alternate;
+	}
+
+  h1{
+      color: #DC143C;
+      font-size: 2em;
+      text-align: center;
+      font-family:Times, serif;
+    }
+
+#list{text-align:center;}
+
+  footer{font-size: 0.65em;}
+  .site-footer {clear:both; padding:1em; text-align:center; border-top:1px solid gray;}
+
