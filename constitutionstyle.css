@@ -14,7 +14,6 @@
   }
 
 
-  body {margin:1em;}
   img {max-width:100%;
        margin:0.5em;
        padding:0.5em;
@@ -49,8 +48,8 @@
           font-size: 2em;
          }
 
-h1{
-      color: #DC143C;
+  h1{
+     color: #DC143C;
       font-size: 2em;
       text-align: center;
       font-family:Times, serif;
@@ -58,10 +57,15 @@ h1{
 
   h2 {
       color: #172AB7;
-      font-size: 1.5em;
-      text-align: center;
+	  text-transform: uppercase;
+      font-size: 1em;
       font-family:Times, serif;
      }
+	 
+  h3{
+      color: #000000;
+      font-size: 1em;
+}
 
   figcaption {text-align:center;}
 

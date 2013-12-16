@@ -48,14 +48,14 @@
          }
 
 h1{
-      color: #FF7F50;
+      color: #DC143C;
       font-size: 1.5em;
       text-align: center;
       font-family:Times, serif;
     }
 
   h2 {
-      color: #FF7F50;
+      color: #DC143C;
       font-size: 1em;
       text-align: center;
       font-family:Times, serif;
@@ -70,6 +70,7 @@ h1{
    h4{
       color: #000000;
       font-size: 1em;
+}
 
   figcaption {text-align:center;}
 
